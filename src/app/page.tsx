@@ -109,7 +109,7 @@ export default function Home() {
           <Skill
             title="Psychobot AI - Social Media Emotion Analysis System"
             urlImage="/images/projects/1.png"
-            desc="Psychobot AI is a web application that helps users identify their dominant emotional states while on social media. Using the LightGBM Machine Learning model with > 98% accuracy, the application analyzes data such as the number of posts, likes, comments, and daily usage duration. The application is deployed using Streamlit, offering an easy-to-use interface and real-time emotion analysis. Psychobot AI provides valuable insights into the impact of social media activity on users’ emotional well-being."
+            desc="Psychobot AI is a web application that helps users identify their dominant emotional states while on social media. Using the LightGBM Machine Learning model with > 98% accuracy, the application analyzes data such as the number of posts, likes, comments, and daily usage duration. The application is deployed using Streamlit, offering an easy-to-use interface and real-time emotion analysis. Psychobot AI provides valuable insights into the impact of social media activity on users' emotional well-being."
             demoUrl="https://psychobot.streamlit.app/"
             codeUrl="https://github.com/n0yy/psychobot-ai"
           />
@@ -119,7 +119,7 @@ export default function Home() {
             desc="I participated in the RISTEK Datathon UI competition which focused on predicting the average speed of vehicles using a time series forecasting model. Using the XGBOOST algorithm, I managed to rank 46th out of 89 participants, demonstrating my ability to build accurate models and analyze factors that affect traffic."
           />
           <Skill
-            title="MobileNET - Pet’s Expression Classification"
+            title="MobileNET - Pet's Expression Classification"
             desc="In another project, I used the Pet's Facial Expression Image Dataset dataset from Kaggle and trained a classification model using MobileNet V2. This model is designed to recognize and classify various animal facial expressions, leveraging MobileNet V2's ability to process images with high efficiency."
             urlImage="/images/projects/3.png"
           />
