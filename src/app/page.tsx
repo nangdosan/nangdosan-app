@@ -19,8 +19,8 @@ export default function Home() {
     <>
       <Navbar />
       {/* Jumbotron */}
-      <section className="block md:flex items-center justify-evenly my-10 mt-0 md:pt-20 mx-10 md:mx-24">
-        <div className="flex items-center w-full md:w-1/3 lg:w-1/4">
+      <section className="block md:flex items-center justify-evenly 2xl:justify-center 2xl:space-x-10 my-10 mt-0 md:pt-20 mx-10 md:mx-24">
+        <div className="flex items-center w-full md:w-1/3 2xl:w-1/4">
           <div className="flex flex-col items-center space-y-4">
             <Link href="https://api.whatsapp.com/send/?phone=%2B6289531834810&text&type=phone_number&app_absent=0">
               <AiOutlineWhatsApp size={32} className="text-white/80" />
@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <Image src="/images/me.png" alt="logo" width={400} height={400} />
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/3">
+        <div className="w-full md:w-1/2 2xl:w-1/3">
           <span className="text-white/20">Nang do san</span>
           <h1 className="text-4xl font-bold text-white mb-3 uppercase">
             Danang Hapis Fadillah
@@ -55,8 +55,10 @@ export default function Home() {
             fueled my enthusiasm for tech innovation.
           </p>
           <div className="mt-7 flex items-center space-x-3">
-            <ButtonPrimary href="/contact">View Resume</ButtonPrimary>
-            <ButtonSecondary href="/projects">View Projects</ButtonSecondary>
+            <ButtonPrimary href="https://api.whatsapp.com/send/?phone=%2B6289531834810&text&type=phone_number&app_absent=0">
+              View Resume
+            </ButtonPrimary>
+            <ButtonSecondary href="#projects">View Projects</ButtonSecondary>
           </div>
         </div>
       </section>
