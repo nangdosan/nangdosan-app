@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* Jumbotron */}
-      <section className="block md:flex items-center justify-evenly 2xl:justify-center 2xl:space-x-10 my-10 mt-7 md:pt-20 mx-10 md:mx-24">
+      <section className="block md:flex items-center justify-evenly 2xl:justify-center 2xl:space-x-10 my-10 mt-10 md:pt-20 mx-10 md:mx-24">
         <div className="flex items-center w-full md:w-1/3 2xl:w-1/4">
           <div className="flex flex-col items-center space-y-4">
             <Link href="https://api.whatsapp.com/send/?phone=%2B6289531834810&text&type=phone_number&app_absent=0">

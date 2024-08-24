@@ -11,7 +11,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="fixed inset-x-0 top-0 px-10 md:mx-24 py-5 bg-black/10 backdrop-blur-md flex justify-between items-center">
+      <nav className="fixed inset-x-0 top-0 px-10 md:mx-24 py-3 bg-black/10 backdrop-blur-md flex justify-between items-center z-50">
         <div>
           <Link href="/">
             <Image
@@ -56,7 +56,7 @@ export default function Navbar() {
       {/* menu */}
       {isOpen && (
         <div className="fixed inset-0 bg-black/40 backdrop-blur-xl">
-          <div className="absolute top-0 right-0 p-5">
+          <div className="absolute top-0 right-0 p-5 z-50">
             <RxCross1
               size={24}
               className="md:hidden"
